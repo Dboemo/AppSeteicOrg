@@ -23,9 +23,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), qrcode.class);
-               // i.putExtra("nome", "Daniel Boemo");
-              //  i.putExtra("saldo", "R$ 5000,00");
-                startActivity(i);
+               // i.putExtra("rotulo", "valor");
+                             startActivity(i);
             }
         });
 
